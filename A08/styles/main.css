@@ -1,0 +1,93 @@
+/* Basics */
+html { background-color: #f6f6f6; }
+
+body {
+	background-color: white;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 900px;	
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #FF9966;
+	padding: 1em;
+	border-radius: 5px 5px 0 0;
+}
+
+header h1 { 
+	color: white;
+	text-align: center;
+}
+
+main { 
+	background-color: white;
+	border: 1px solid #eee;
+	border-top: none;
+	padding: 2em 1em;
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	color: #FF9966;
+	padding: 1em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	font-size: 90%;
+	border: 1px solid #eee;
+	border-top: none;
+}
+footer p { margin: 0; }
+
+/* form */
+label { 
+	display: inline-block; 
+	margin-bottom: 0.5em;
+	width: 10em;
+}
+
+input, select {  
+	display: inline-block;  
+	box-sizing: border-box; 
+	width:20em; 
+	padding: 0.2em; 
+	margin-bottom: .8em;
+}
+
+textarea { 
+	width: 20em;
+	padding: 0.2em;
+	box-sizing: border-box; 
+	display: inline-block;
+	margin-bottom: .8em;
+}
+
+fieldset { 
+	padding: 1.5em 2em 2em; 
+	margin: 0 auto; 
+	border-color: #ddd; 
+	border-radius: 5px;
+	width: 60%;
+}
+
+legend { 
+	font-weight: bold; 
+	color: #FF9966; 
+	font-size: 110%; 
+	padding: 0 0.2em;
+}
+
+@media only screen and (max-width: 767px){
+	body { margin: 0; width: 100%; }
+	fieldset { width: 100%; box-sizing: border-box;  }
+	main { padding-top: 1em; }
+}
+@media only screen and (max-width: 480px){
+	input, select, textarea {width: 100%;}
+}

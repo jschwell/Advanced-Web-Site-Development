@@ -1,0 +1,132 @@
+{
+	"courseList" : [
+		{
+			"courseTitle" : "Program Logic",
+			"courseNumber" : "10152135",
+			"semesterOffered" : "Fall and Spring (online only)",
+			"numberOfCredits" : 3,
+			"prerequisite" : "None",
+			"description" : "In Program Logic, students will learn to develop clear consistent strategies to solve problems. The student will analyze problems, review requirements, and then create solutions. Students will learn to focus on understanding the logic behind each solution. Students will also learn how to properly use data types, decision and repetition structures, functions, modules, arrays, as well as, how to use variables and understand variable scope. Although this course emphasizes programming logic, students will develop working programs."
+		},
+		{
+			"courseTitle" : "Web Design",
+			"courseNumber" : "10152101",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "None",
+			"description" : "Students will plan and develop well-designed Web sites that combine effective navigation and a balanced use of text, images, and color. Emphasis will be placed on understanding the basics of HTML5, Cascading Style Sheets (CSS), and responsive Web design. Students will create Web sites that can be easily viewed across a wide range of devices."
+		},
+		{
+			"courseTitle" : "Advanced Web Site Development",
+			"courseNumber" : "10152102",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Web Design",
+			"description" : "Students will gain hands-on experience with the design and implementation of dynamic business Internet Web sites. Topics include JavaScript, jQuery, Ajax, and XML with which students will thoroughly explore event-driven techniques, data storage, accessing the DOM, and JSON. Students will create Web sites that can be easily viewed across a wide range of devices."
+		},
+		{
+			"courseTitle" : "Beginning Java",
+			"courseNumber" : "10152106",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Program Logic",
+			"description" : "This Java course will familiarize the student with the fundamentals of the Java language including data types, operators, expressions, event-driven programming, and conditional statements. Students will learn how to set up an environment for developing Java programs, define classes and utilize class objects. Object-oriented topics including encapsulation, inheritance, and polymorphism will be explored. Other topics include string manipulation, Collections, Array Lists, Exception Handling, Packages and creating a graphical user interface (GUI)."
+		},
+		{
+			"courseTitle" : "Advanced Java",
+			"courseNumber" : "10152107",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Beginning Java",
+			"description" : "This course will provide an in-depth look at how to apply some of the more advanced features of the Java language. It is intended for students with a solid grasp of Java language basics and object-oriented concepts. Students will create GUI applications that connect to a database. The Model View Controller framework will be explored. Topics covered include Swing, utility classes, threads, and database access. Students will develop a business application that interacts with a database."
+		},
+		{
+			"courseTitle" : "Enterprise Java",
+			"courseNumber" : "10152108",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Advanced Java",
+			"description" : "The third class of the Java sequence explores advanced Java topics within the Java EE application framework. Topics include JSPs, Servlets, session management, Expression Language, JSTL, JavaBeans, asynchronous processing, custom tags and tag files. Students will create applications utilizing a Model View Controller framework."
+		},
+		{
+			"courseTitle" : "Database Concepts and SQL",
+			"courseNumber" : "10152100",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "None",
+			"description" : "This course is a comprehensive introduction to database concepts. The interaction between software applications and databases will be discussed. Database terminology will be introduced. Students will learn how to manage, design, and construct relational databases. Structured Query Language (SQL) will be used to define and access databases. Other topics include normalization, entity relationship diagrams, foreign key constraints, and indexes."
+		},
+		{
+			"courseTitle" : "Programming in SQL",
+			"courseNumber" : "10152110",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Database Concepts and SQL",
+			"description" : "The course covers database design techniques, database manipulation techniques, and database integrity techniques using the SQL programming language. Students will also learn management tasks and security features implemented by server administrators."
+		},
+		{
+			"courseTitle" : "Beginning .NET Programming",
+			"courseNumber" : "10152115",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "None",
+			"description" : "Introduction to the concepts and techniques of programming in the .NET environment using the C# language. Topics covered include requirement analysis, program design, coding, and debugging. Emphasis is placed on the techniques needed to program graphical user interface applications using C# forms, events, and codes."
+		},
+		{
+			"courseTitle" : "Advanced .NET Programming",
+			"courseNumber" : "10152117",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Beginning .NET Programming",
+			"description" : "This course provides the student with an object-oriented view of the .NET development environment using C# language. Topics covered include classes, array objects, encapsulation, inheritance, and error-handling routines. Windows forms will be created to present information retrieved from database using ADO.NET objects."
+		},
+		{
+			"courseTitle" : "Enterprise Programming in .NET",
+			"courseNumber" : "10152118",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Advanced .NET Programming",
+			"description" : "This course is designed to provide students with an enterprise view of the .NET development environment. The course will use the Visual Studio development environment to create fully functional Web sites using ASP.NET and C#. Topics include; securing Web sites, techniques to safely update data, centralizing site design, and methods to enhance application performance."
+		},
+		{
+			"courseTitle" : "Systems Analysis and Design",
+			"courseNumber" : "10152111",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Advanced Java",
+			"description" : "This course covers the introduction to principles and techniques for analyzing and designing information systems. Included will be the definition of the problem, fact gathering, evaluation of alternative solutions, designing of input and output files, report design, and managing a system project. The Unified Modeling Language (UML) is included to provide a visual model of an information system. The use of a CASE tool is integrated throughout the course to enhance the design experience."
+		},
+		{
+			"courseTitle" : "Server-Side Web Development",
+			"courseNumber" : "10152112",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Database Concepts and SQL, Web Design",
+			"description" : "This course will familiarize the student with techniques to create server-side scripts for building fully functional Web applications. Topics covered include the use of scripting objects, database interaction, and session management. Students will learn the fundamental programming concepts to build an e-commerce solution such as an online shopping cart application."
+		},
+		{
+			"courseTitle" : "Applications Development",
+			"courseNumber" : "10152113",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Enterprise Programming in .NET, Advanced Java, Systems Analysis and Design",
+			"description" : "The purpose of this capstone course is to provide the student with experience developing applications in a business environment. Students will apply design, programming, and analysis techniques to develop a fully functional software application. The project will progress through all the stages of the development process including planning, analysis, design, construction, testing, and deployment."
+		},
+		{
+			"courseTitle" : "Web Tools of the Trade",
+			"courseNumber" : "10152116",
+			"semesterOffered" : "Spring",
+			"numberOfCredits" : 2,
+			"prerequisite" : "Advanced Web Site Development",
+			"description" : "In Web Tools of the Trade, students will explore ways to make use of third-party Web tools, libraries, and APIs. Besides working with Web tools, students will also explore current events and hot topics in technology."
+		},
+		{
+			"courseTitle" : "Development in Emerging Technologies",
+			"courseNumber" : "10152119",
+			"semesterOffered" : "Fall",
+			"numberOfCredits" : 3,
+			"prerequisite" : "Advanced Web Site Development, Beginning .NET Programming",
+			"description" : "This course focuses on the development of applications for mobile devices. Students will learn best practices for programming in this emerging environment. At the end of the course, students will be proficient in developing mobile applications and using device emulators for coding and testing."
+		}
+	]
+}

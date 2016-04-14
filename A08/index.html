@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>AW - Assignment 08</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Adv. Web Site Development - Assignment 08</h1>
+		</header>
+		<main>
+			<form action="" method="get" name="course_form" id="course_form">
+				<fieldset name="course_info" id="course_info">
+					<legend>IT Web and Software Developer courses</legend>
+					<label for="name">Course Name:</label>
+					<select name="name" id="name">
+						<option value="Choose a Course" selected>Choose a Course</option>
+					</select><br>
+					<label for="number">Course Number:</label>
+					<input type="text" name="number" id="number" readonly><br>
+					<label for="credits">Number of Credits:</label>
+					<input type="text" name="credits" id="credits" readonly><br>
+					<label for="semester">Semester Offered:</label>
+					<input type="text" name="semester" id="semester" readonly><br>
+					<label for="prerequisite">Pre-requisite(s):</label>
+					<textarea rows="2" cols="45" name="prerequisite" id="prerequisite" readonly></textarea><br>
+					<label for="description">Description:</label>
+					<textarea rows="15" cols="45" name="description" id="description" readonly></textarea>
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; Copyright Joleen Schwellenbach</p>
+		</footer>
+		<!-- javascript -->
+		<script src="js/event-utility.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
