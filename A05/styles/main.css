@@ -1,0 +1,110 @@
+/* Basics */
+html { background-color: #f6f6f6; }
+
+body {
+	background-color: white;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 900px;	
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #66CCCC;
+	padding: 1em;
+	border-radius: 5px 5px 0 0;
+}
+
+header h1 { 
+	color: white;
+	text-align: center;
+}
+
+main { 
+	background-color: white;
+	border: 1px solid #eee;
+	border-top: none;
+	padding: 0 1em;
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section {
+    float: left;
+    width: 50%;
+}
+
+footer {
+	color: #66CCCC;
+	padding: 1em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	font-size: 90%;
+	border: 1px solid #eee;
+	border-top: none;
+}
+footer p { margin: 0; }
+
+span {
+	padding-left: 0.3em;
+	color: red;
+}
+
+/* form */
+label { 
+	display: inline-block; 
+	margin-bottom: 0.5em;
+	width: 12em;
+}
+
+select, input {  
+	display: inline-block;  
+	box-sizing: border-box; 
+	width: 11em; 
+	padding: 0.2em; 
+	margin-bottom: 1em;
+}
+
+fieldset { 
+	padding: 1.5em 2em 2em; 
+	margin: 2em 1em; 
+	border-color: #ddd; 
+	border-radius: 5px;
+	min-height: 220px;
+}
+
+legend { 
+	font-weight: bold; 
+	color: #66CCCC; 
+	font-size: 110%; 
+	padding: 0 0.2em;
+}
+
+#message {
+	font-weight: bold;
+	color: red;
+	margin-top: 1em;
+}
+#submit, #reset {
+	background-color: #66CCCC;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	width: 9em;
+	padding: 0.7em 0;
+	margin-top: 1em;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 767px){
+	body { margin: 0; width: 100%; }
+	
+	section { width: 100%; float: none; }
+	
+	main { padding-top: 1em; }
+}
