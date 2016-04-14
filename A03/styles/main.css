@@ -1,0 +1,70 @@
+/* Basics */
+html { background-color: #f6f6f6; }
+
+body {
+	background-color: white;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 900px;	
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #FF7878;
+	padding: 1em;
+	border-radius: 5px 5px 0 0;
+}
+
+header h1 { 
+	color: white;
+	text-align: center;
+}
+
+main { 
+	background-color: white;
+	border: 1px solid #eee;
+	border-top: none;
+	padding: 2.5em;
+}
+
+footer {
+	color: #FF7878;
+	padding: 1em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	font-size: 90%;
+	border: 1px solid #eee;
+	border-top: none;
+}
+footer p { margin:0; }
+
+/* form */
+label {
+	float: left;
+	width: 9em;
+	text-align: right;
+}
+
+input {
+	width: 25em;
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+
+#submit {
+	background-color: #FF7878;
+	color:white;
+	border-radius:5px;
+	border:none;
+	width: 9em;
+	padding: 1em 0;
+	margin-top:1em;
+	margin-left:10em;
+	display:block;
+}
+
+#required_span {
+	padding-left:0.3em;
+	color:#FF7878;
+}
