@@ -1,0 +1,42 @@
+/* Basics */
+html { background-color: #f6f6f6; }
+
+body {
+	background-color: white;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 900px;	
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #00bf8f;
+	padding: 1em;
+	border-radius: 5px 5px 0 0;
+}
+
+header h1 { 
+	color: white;
+	text-align: center;
+}
+
+main { 
+	background-color: white;
+	border: 1px solid #eee;
+	border-top: none;
+	padding: 2.5em 2em;
+	text-align: center;
+}
+
+footer {
+	color: #00bf8f;
+	padding: 1em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	font-size: 90%;
+	border: 1px solid #eee;
+	border-top: none;
+}
+footer p { margin:0; }
+
