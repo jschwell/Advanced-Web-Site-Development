@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>AW - Assignment 07</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/locate-me.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Adv. Web Site Development - Assignment 07</h1>
+		</header>
+		<nav id="main-menu">
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../pages/conversion.html">Conversions</a></li>
+				<li><a href="../pages/birthday.html">Birthday</a></li>
+				<li><a href="../pages/gradebook.html">Gradebook</a></li>
+				<li><a href="../pages/locate-me.html" class="current">Locate Me</a></li>
+			</ul>
+		</nav>
+		<main>
+			<form action="" method="get" name="locate_form" id="locate_form">
+				<section>
+					<fieldset name="location_field" id="location_field">
+						<legend>Location</legend>
+						<textarea rows="10" cols="45" name="location" id="location" readonly></textarea>
+						<button type="submit" id="submit">Find My Location</button>
+						<div id="message"></div>
+					</fieldset>
+				</section>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; Copyright Joleen Schwellenbach</p>
+		</footer>
+		<!-- javascript -->
+		<script src="../js/event-utility.js"></script>
+		<script src="../js/locate-me.js"></script>
+	</body>
+</html>

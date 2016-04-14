@@ -1,0 +1,84 @@
+/* Basics */
+html { background-color: #f6f6f6; }
+
+body {
+	background-color: white;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 900px;	
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #39bccd;
+	padding: 1em;
+	border-radius: 5px 5px 0 0;
+}
+
+header h1 { 
+	color: white;
+	text-align: center;
+}
+
+main { 
+	background-color: white;
+	border: 1px solid #eee;
+	border-top: none;
+	padding: 2em 1em;
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section {
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer {
+	color: #39bccd;
+	padding: 1em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	font-size: 90%;
+	border: 1px solid #eee;
+	border-top: none;
+}
+footer p { margin: 0; }
+
+/* Form */
+fieldset { 
+	padding: 1.5em 2em 2em; 
+	border-color: #ddd; 
+	border-radius: 5px;
+	margin: 0 1em;
+}
+
+legend { 
+	font-weight: bold; 
+	color: #39bccd; 
+	font-size: 110%; 
+	padding: 0 0.2em;
+}
+
+
+button {
+	background-color: #39bccd;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	width: 12em;
+	padding: 0.7em 0;
+	margin: 1em auto 0;
+	display: block;
+}
+
+@media only screen and (max-width: 767px){
+	body { margin: 0; width: 100%; }
+	section { width: 100%; }
+	main { padding-top: 1em; }
+}

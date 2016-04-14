@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>AW - Assignment 05</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/birthday.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Adv. Web Site Development - Assignment 05</h1>
+		</header>
+		<nav id="main-menu">
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../pages/conversion.html">Conversions</a></li>
+				<li><a href="../pages/birthday.html" class="current">Birthday</a></li>
+				<li><a href="../pages/gradebook.html">Gradebook</a></li>
+				<li><a href="../pages/locate-me.html">Locate Me</a></li>
+			</ul>
+		</nav>
+		<main>
+			<form action="" method="get" name="date_form" id="date_form">
+				<section>
+					<fieldset name="birthday_info" id="birthday_info">
+						<legend>Select the Following</legend>
+						<label for="month">Your Birth Month:</label>
+						<select name="month" id="month">
+							<option value="0" selected>January</option>
+							<option value="1">February</option>
+							<option value="2" >March</option>
+							<option value="3">April</option>
+							<option value="4">May</option>
+							<option value="5">June</option>
+							<option value="6">July</option>
+							<option value="7">August</option>
+							<option value="8">September</option>
+							<option value="9">October</option>
+							<option value="10">November</option>
+							<option value="11">December</option>
+						</select><br>
+						<label for="day">Your Birth Day:</label>
+						<input type="number" name="day" id="day" min="1" max="31" value="1"><br>
+						<label for="year">Your Birth Year:</label>
+						<input type="number" name="year" id="year" min="1962" max="2016" value="1990"><br>
+						<button type="submit" id="submit">Display</button>
+						<button type="reset" id="reset">Reset</button>
+						<div id="message"></div>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset name="results" id="results">
+						<legend>Results</legend>
+						<label for="leap_year">Leap year?:</label>
+						<input type="text" name="leap_year" id="leap_year" readonly><br>
+					    <label for="weekday">You were born on a:</label>
+						<input type="text" name="weekday" id="weekday" readonly><br>
+						<label for="date">Today's date is:</label>
+						<input type="text" name="date" id="date" readonly><br>
+						<label for="birth_days">Days since your birth:</label>
+						<input type="text" name="birth_days" id="birth_days" readonly><br>
+						<label for="semester_days">Days until semester end:</label>
+						<input type="text" name="semester_days" id="semester_days" readonly><br>
+					</fieldset>
+				</section>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; Copyright Joleen Schwellenbach</p>
+		</footer>
+		<!-- javascript -->
+		<script src="../js/event-utility.js"></script>
+		<script src="../js/birthday.js"></script>
+	</body>
+</html>

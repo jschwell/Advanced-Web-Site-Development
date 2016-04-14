@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>AW - Assignment 04</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/conversion.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Adv. Web Site Development - Assignment 04</h1>
+		</header>
+		<nav id="main-menu">
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../pages/conversion.html" class="current">Conversions</a></li>
+				<li><a href="../pages/birthday.html">Birthday</a></li>
+				<li><a href="../pages/gradebook.html">Gradebook</a></li>
+				<li><a href="../pages/locate-me.html">Locate Me</a></li>
+			</ul>
+		</nav>
+		<main>
+			<form action="" method="get" name="conversion_form" id="conversion_form">
+				<section>
+					<fieldset name="convert_from" id="convert_from">
+						<legend>Convert From:</legend>
+					    <ul class="radio-group">
+					    	<li>
+					    		<label for="inches">Inches</label>
+								<input type="radio" name="radio_from" id="inches" value="in" checked>
+					    	</li>
+					    	<li>
+					    		<label for="feet">Feet</label>
+								<input type="radio" name="radio_from" id="feet" value="ft">
+					    	</li>
+					    	<li>
+					    		<label for="miles">Miles</label>
+								<input type="radio" name="radio_from" id="miles" value="mi">
+					    	</li>
+					    </ul>
+					</fieldset>
+					<fieldset name="convert_to" id="convert_to">
+						<legend>Convert To:</legend>
+					    <ul class="radio-group">
+					    	<li>
+					    		<label for="centimeters">Centimeters</label>
+								<input type="radio" name="radio_to" id="centimeters" value="cm" checked>
+					    	</li>
+					    	<li>
+					    		<label for="meters">Meters</label>
+								<input type="radio" name="radio_to" id="meters" value="m">
+					    	</li>
+					    	<li>
+					    		<label for="kilometers">Kilometers</label>
+								<input type="radio" name="radio_to" id="kilometers" value="km">
+					    	</li>
+					    </ul>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset name="conversion_data" id="conversion_data">
+						<legend>Conversion Data</legend>
+					    <label for="convert_value">Value to Convert:</label>
+						<input type="text" name="convert_value" id="convert_value"><span>*</span><br>
+						<button type="submit" id="submit">Convert</button>
+						<button type="reset" id="reset">Reset</button>
+						<div id="message"></div>
+						<label for="conversions">Conversions:</label>
+						<textarea rows="15" cols="45" name="conversions" id="conversions" readonly></textarea>
+					</fieldset>
+				</section>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; Copyright Joleen Schwellenbach</p>
+		</footer>
+		<!-- javascript -->
+		<script src="../js/event-utility.js"></script>
+		<script src="../js/conversion.js"></script>
+	</body>
+</html>
