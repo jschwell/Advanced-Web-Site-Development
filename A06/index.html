@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>AW - Assignment 06</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Adv. Web Site Development - Assignment 06</h1>
+		</header>
+		<main>
+			<form action="" method="get" name="gradebook_form" id="gradebook_form">
+				<section>
+					<fieldset name="student_info" id="student_info">
+						<legend>Student Details</legend>
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" autofocus><span>*</span><br>
+						<label for="score">Score:</label>
+						<input type="text" name="score" id="score"><span>*</span><br>
+						<button type="submit" id="submit">Add to Gradebook</button>
+						<button type="button" id="display">Display Gradebook</button>
+						<div id="message"></div>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset name="gradebook_field" id="gradebook_field">
+						<legend>Gradebook</legend>
+						<textarea rows="15" cols="45" name="gradebook" id="gradebook" readonly></textarea>
+					</fieldset>
+				</section>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; Copyright Joleen Schwellenbach</p>
+		</footer>
+		<!-- javascript -->
+		<script src="js/event-utility.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
